@@ -1,0 +1,15 @@
+1- INSTALAR BROWSERIFY (VER auto guia) -> npm i browserify --save-dev
+2- CAMBIAR <script src="../build.js"> </script> -< OK
+3- INSTALAR ESMIFY -> npm install esmify --save-dev
+4- ARMAR LA RUTA DEL BUILD en package.json -> browserify src/statement.js src/createStatementData.js -p esmify > bundle.js
+5- INSTALAR BABEL --> npm i -D @babel/preset-env
+https://javascript.plainenglish.io/how-i-solved-issues-while-setting-up-jest-and-enzyme-in-a-react-app-created-using-webpack-7e321647f080
+6- Crear suelto en root .babelrc 
+7-Dentro de -babelrc -->
+
+{ 
+  "presets": ["@babel/env"]
+}
+
+ 
+

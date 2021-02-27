@@ -1,0 +1,25 @@
+{
+  "name": "-t",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "babel": "^5.8.23",
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.8",
+    "browserify": "^17.0.0",
+    "esmify": "^2.1.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "browserify src/statement.js src/createStatementData.js -p esmify > bundle.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
