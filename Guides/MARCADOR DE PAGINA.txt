@@ -6,14 +6,4 @@ amountFor()  --> extract function (106)
 playFor() --> Replace temp with Query (178)
 volumeCreditsFor() -->
 
-PAGINA 39  PDF 
-
-HACER:
-MODULE DEPLOY 
-1-Hacer funcionar browserify con statement.js
-- SEPARAR createStatementData e importarlo en statement 
-(tal vez no usar export default, agregar .js en la extension del import)
-
-
-DUDAS: 
-
+PAGINA 53  PDF
